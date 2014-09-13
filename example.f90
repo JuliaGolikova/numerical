@@ -1,3 +1,3 @@
 program example
-  print *, "Hello world!"
+  print *, "All you need is love!"
 end program
