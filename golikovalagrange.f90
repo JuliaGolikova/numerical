@@ -3,7 +3,7 @@ real x(10), f(10), flagr(1000)
 
 pi=4.*atan(1.)
 N = 10
-a = 0
+a = 1
 b = 2*pi
 h = (b-a)/N
 DO i = 1, N
@@ -41,6 +41,6 @@ end
 
 
 function fun(t)
-  fun = sin(t)
+  fun = sin(1/t)
   return
 end
